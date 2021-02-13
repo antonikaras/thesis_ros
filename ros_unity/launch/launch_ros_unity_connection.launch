@@ -1,3 +1,4 @@
 <launch>
     <rosparam file="$(find ros_unity)/config/params.yaml" command="load"/>
+    <node name="ros_unity" pkg="ros_unity" type="server_endpoint.py" />
 </launch>
