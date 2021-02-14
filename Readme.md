@@ -2,7 +2,11 @@
 
 ## Description
 
-    This package contains the necessary items to connect ROS and Unity
+    This package contains the necessary items to connect ROS2 and ROS, ROS and Unity.
+
+## Installation
+
+* Follow the instructions of the repository https://github.com/antonikaras/thesis_ros2.git
 
 ## How to use
 

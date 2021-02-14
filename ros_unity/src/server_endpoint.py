@@ -13,8 +13,8 @@ def main():
     rospy.init_node(ros_node_name, anonymous=True)
     
     tcp_server.start({
-        'robot_pos': RosSubscriber('robot_pos', PosData, tcp_server),
-        'map_data': RosSubscriber('map_data', MapData, tcp_server)
+        'rosbridge_msgs_publisher/robot_pos': RosSubscriber('rosbridge_msgs_publisher/robot_pos', PosData, tcp_server),
+        'rosbridge_msgs_publisher/map': RosSubscriber('rosbridge_msgs_publisher/map', MapData, tcp_server)
     })
     
     rospy.spin()

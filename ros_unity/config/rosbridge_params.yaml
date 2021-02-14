@@ -1,0 +1,3 @@
+topics:
+  - { topic: '/rosbridge_msgs_publisher/map', type: 'autonomous_exploration_msgs/msg/MapData', que_size: 100 }
+  - { topic: '/rosbridge_msgs_publisher/robot_pos', type: 'autonomous_exploration_msgs/msg/PosData', que_size: 100 }

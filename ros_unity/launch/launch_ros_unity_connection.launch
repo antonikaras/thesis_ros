@@ -1,4 +1,16 @@
 <launch>
-    <rosparam file="$(find ros_unity)/config/params.yaml" command="load"/>
+    <!--
+    <rosparam param="topics">
+        [{ topic: '/topic', type: 'std_msgs/msg/String', que_size: 100 }]
+    </rosparam>
+    -->
+    <!-- Load the rosbridge_params file containing the topics to be bridged between ros1 and ros2-->
+    <rosparam file="$(find ros_unity)/config/rosbridge_params.yaml" command="load"/>
+
+    <!-- Load the rosbridge_params file containing the network parameters to connect with unity-->
+    <rosparam file="$(find ros_unity)/config/ros_unity_params.yaml" command="load"/>
+
+    <!-- Launch the ros_unity connector -->
     <node name="ros_unity" pkg="ros_unity" type="server_endpoint.py" />
+    
 </launch>

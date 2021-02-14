@@ -20,18 +20,6 @@
   <build_depend>rospy</build_depend>
   <build_export_depend>rospy</build_export_depend>
   <exec_depend>rospy</exec_depend>
-<<<<<<< HEAD
-=======
-
-  <build_depend>nav_msgs</build_depend>
-  <build_export_depend>nav_msgs</build_export_depend>
-  <exec_depend>nav_msgs</exec_depend>
-
-
-  <build_depend>message_generation</build_depend>
-  <exec_depend>message_runtime</exec_depend>
-
->>>>>>> eadbb3568928b9459e0e0077c6f5cc274e11da2f
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
