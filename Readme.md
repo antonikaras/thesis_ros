@@ -25,7 +25,7 @@
 
  * Detailed instructions can be found at : https://github.com/Unity-Technologies/Unity-Robotics-Hub/tree/main/tutorials/ros_unity_integration
  1. Launch the unity application
- 2. Add the robotics package on Unity ```https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md``
+ 2. Add the robotics package on Unity ```https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/setup.md```
 
 ## How to use
 

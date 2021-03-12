@@ -14,7 +14,9 @@ def main():
     
     tcp_server.start({
         'rosbridge_msgs_publisher/robot_pos': RosSubscriber('rosbridge_msgs_publisher/robot_pos', PosData, tcp_server),
-        'rosbridge_msgs_publisher/map': RosSubscriber('rosbridge_msgs_publisher/map', MapData, tcp_server)
+        'rosbridge_msgs_publisher/map': RosSubscriber('rosbridge_msgs_publisher/map', MapData, tcp_server),
+        'rosbridge_msgs_unity/nav_goal': RosPublisher('rosbridge_msgs_unity/nav_goal', PosData, queue_size=10),
+        'rosbridge_msgs_unity/interactive_map': RosPublisher('rosbridge_msgs_unity/interactive_map', MapData, queue_size=10)
     })
     
     rospy.spin()

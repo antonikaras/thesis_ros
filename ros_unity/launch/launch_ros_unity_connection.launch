@@ -1,9 +1,4 @@
 <launch>
-    <!--
-    <rosparam param="topics">
-        [{ topic: '/topic', type: 'std_msgs/msg/String', que_size: 100 }]
-    </rosparam>
-    -->
     <!-- Load the rosbridge_params file containing the topics to be bridged between ros1 and ros2-->
     <rosparam file="$(find ros_unity)/config/rosbridge_params.yaml" command="load"/>
 
