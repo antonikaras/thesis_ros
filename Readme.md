@@ -20,6 +20,12 @@
         * Customs messages are created so that they can be easier imported to Unity at once
 * ROS-TCP-Endpoint
     1. Handles the communication between ROS and Unity using .Net 
+* map_saver
+    1. It creates a services that saves the maps upon call from Unity
+    2. Stores the map created in ROS2
+    3. Stores the interactive map created in Unity
+    4. Stores the combination of the maps in ROS2 and the interactive map
+
 
 ## Configure Unity
 

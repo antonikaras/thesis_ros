@@ -7,5 +7,8 @@
 
     <!-- Launch the ros_unity connector -->
     <node name="ros_unity" pkg="ros_unity" type="server_endpoint.py" />
-    
+
+    <!-- Launch the map saver node -->
+    <!--<node name="map_saver_node" pkg="map_saver" type="map_saver_server.py" />-->
+
 </launch>
