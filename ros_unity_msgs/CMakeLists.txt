@@ -10,6 +10,8 @@ add_message_files(
   FILES
   MapData.msg
   PosData.msg
+  PointGroup.msg
+  PointGroups.msg
 )
 
 generate_messages(
