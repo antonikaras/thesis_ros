@@ -12,6 +12,7 @@ add_message_files(
   PosData.msg
   PointGroup.msg
   PointGroups.msg
+  Nav2Waypoints.msg
 )
 
 generate_messages(
