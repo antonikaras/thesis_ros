@@ -4,3 +4,4 @@ topics:
   - { topic: '/rosbridge_msgs_unity/nav_goals', type: 'autonomous_exploration_msgs/msg/Nav2Waypoints', que_size: 100 }
   - { topic: '/rosbridge_msgs_unity/interactive_map', type: 'autonomous_exploration_msgs/msg/MapData', que_size: 100 }
   - { topic: '/rosbridge_msgs_unity/point_groups', type: 'autonomous_exploration_msgs/msg/PointGroups', que_size: 100 }
+  - { topic: '/rosbridge_msgs_publisher/point_groups', type: 'autonomous_exploration_msgs/msg/PointGroups', que_size: 100 }
