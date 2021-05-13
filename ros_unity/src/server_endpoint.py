@@ -18,7 +18,8 @@ def main():
         'rosbridge_msgs_unity/nav_goals': RosPublisher('rosbridge_msgs_unity/nav_goals', Nav2Waypoints, queue_size=10),
         'rosbridge_msgs_unity/interactive_map': RosPublisher('rosbridge_msgs_unity/interactive_map', MapData, queue_size=10),
         'rosbridge_msgs_unity/point_groups': RosPublisher('rosbridge_msgs_unity/point_groups', PointGroups, queue_size=10),
-        'rosbridge_msgs_publisher/point_groups': RosSubscriber('rosbridge_msgs_publisher/point_groups', PointGroups, tcp_server)
+        'rosbridge_msgs_publisher/point_groups': RosSubscriber('rosbridge_msgs_publisher/point_groups', PointGroups, tcp_server),
+        'rosbridge_msgs_publisher/current_target': RosSubscriber('rosbridge_msgs_publisher/current_target', PosData, tcp_server)
     })
     
     rospy.spin()
