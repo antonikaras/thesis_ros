@@ -1,0 +1,3 @@
+[submodule "docker-workspace/catkin_ws/src/thesis_ros"]
+	path = docker-workspace/catkin_ws/src/thesis_ros
+	url = https://github.com/antonikaras/thesis_ros.git
